@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-upper {
+  min-height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -50% 200%, 150% -150%;
+  align-items: center;
+}
+
+.card {
+  height: 450px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.card-upper {
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: contain;
+  height: 40%;
+  background-repeat: no-repeat;
+}
+
+.card-lower {
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.data h2 {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: -20px;
+}
+
+.data p {
+  font-size: 15px;
+}
+
+.statics {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.number-data {
+  font-size: 12px;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+
+.card-profile img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%,5%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  border-width: thick;
+  border-color: white;
+}
